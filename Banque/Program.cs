@@ -33,7 +33,7 @@ namespace Banque
             Compte compte4 = new Compte(client3, 1000, "Cheque");
 
             compte4.Deposer(100);
-            WriteLine($"Le montant dans le compte est {0}",compte4.RetourneSolde());
+            WriteLine($"Le montant dans le compte est {compte4.RetourneSolde()}");
         }
     }
 }
